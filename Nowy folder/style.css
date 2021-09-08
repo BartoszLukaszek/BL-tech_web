@@ -12,4 +12,35 @@ outline: none;
 }
 #logoCSGO{
 max-width: 100px;
+}  
+
+.pNav {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pNav>li {
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImgTeam{
+    max-width: 100px;
+    max-height: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    background-color: rgb(124, 133, 40);
+}
+.logo {
+    display: flex;
+    justify-content: center;
 }
