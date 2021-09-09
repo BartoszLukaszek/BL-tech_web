@@ -1,46 +1,137 @@
 img {
-    max-width: 100%;
-    max-height: 100%;
-
+  max-width: 100%;
+  max-height: 100%;
 }
-*, *::before, *::after {
-box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 a {
-text-decoration: none;
-outline: none;
+  text-decoration: none;
+  outline: none;
 }
-#logoCSGO{
-max-width: 100px;
-}  
+#logoCSGO {
+  max-width: 100px;
+}
 
 .pNav {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.pNav>li {
-    padding: 10px 15px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pNav > li {
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.ImgTeam{
-    max-width: 100px;
-    max-height: 100px;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    background-color: rgb(124, 133, 40);
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  background-color: rgba(5, 12, 32, 0.952);
 }
 .logo {
+  display: flex;
+  justify-content: center;
+}
+.color2 {
+  color: black;
+}
+
+.mainTło {
+  background-position: top;
+  background-size: cover;
+  display: grid;
+  font-family: var(--font-Montserrat);
+}
+.mainTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nazwa {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(jpg/csgoblog.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(36, 36, 182);
+  font-size: 4rem;
+}
+.mainRead {
+  grid-row: 6/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background 0.5s ease-in-out;
+  background-color: rgba(155, 106, 118, 0.952);
+  
+}
+
+#readmore {
+  font-weight: 400;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 4rem;
+ 
+}
+footer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 20px ;
+    font-weight: 200;
+    border-top: rgba(3, 44, 158, 0.952);
+    
+}
+/*teams*/
+.teamCS{
+    grid-row: 2/2;
+    background-image: url(jpg/csgoblog.jpg);
+    display: grid;
+    background-repeat: repeat-y;
+}
+.Plteam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ImgTeam {
+    max-width: 180px;
+    max-height: 180px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed v;
+  }
+  .Players{
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+  }
+  h1{
+    font-size: 1.8rem;
+    padding: 20px;
+}
+ol {
+    list-style-type: decimal;
+    line-height: 2rem;
+}
+
+ol>li {
+    font-size: 1.4rem;
 }
