@@ -268,19 +268,9 @@ ol > li {
   font-size: 20px;
   line-height: 1.6;
 }
-.mainBlog {
-  background-image: url(Jpg/tło/tło2.jpg);
-  display: grid;
-  background-repeat: repeat-y;
-  grid-row: 2/2;
-}
+
 /*OprtationBlog*/
-.mainOperation {
-  background-image: url(Jpg/tło/tło2.jpg);
-  display: grid;
-  background-repeat: repeat-y;
-  grid-row: 2/2;
-}
+
 .postOperation {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -304,6 +294,44 @@ ol > li {
   line-height: 1.6;
 }
 
+@media (max-width: 1024px) {
+.pNav{
+  font-size: 16px;
+    
+    
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    margin-top: 0px;
+    border: 0px solid;
+    background-color: transparent;
+    border-radius: 0px;
+    outline: none;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+.post{
+  width: 100%;
+    grid-column: 1;
+    padding: 5%;
+    margin: auto;
+    
+}
+.blogInfo{
+  padding: 40px;
+    font-size: 42px;
+
+    text-align: center;
+}
+.TeamJmg{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+}
 
 
 
