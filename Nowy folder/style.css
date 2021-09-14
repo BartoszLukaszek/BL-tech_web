@@ -230,6 +230,7 @@ ol > li {
 .OperationText {
   font-size: 20px;
   line-height: 1.5;
+  
 }
 .OperationMore {
   display: flex;
@@ -240,7 +241,7 @@ ol > li {
   padding: 20px;
   margin-top: 30px;
   border: 2px solid;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border-radius: 60px;
   outline: none;
   text-transform: uppercase;
@@ -251,6 +252,7 @@ ol > li {
   font-size: 50px;
   font-size: 400;
   text-align: center;
+  color:aquamarine;
 }
 .postBox {
   display: grid;
@@ -262,7 +264,7 @@ ol > li {
   padding: 20px 50px;
 }
 .InfoText {
-  color: aqua;
+  color: brown;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
@@ -285,9 +287,10 @@ ol > li {
   font-size: 50px;
   font-size: 400;
   text-align: center;
+  color: aquamarine;
 }
 .OperationText{
-  color: aqua;
+  color: brown;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
@@ -331,6 +334,37 @@ ol > li {
   align-items: center;
   flex-direction: column;
 }
+.postOpe{
+  width: 100%;
+    grid-column: 1;
+    padding: 5%;
+    margin: auto;
+}
+.OperationBox{
+  width: 100%;
+    grid-column: 1;
+    padding: 5%;
+    margin: auto
+}
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(5, 12, 32, 0.952);
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+.FooterSM{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h6{
+  color: brown;
 }
 
 
